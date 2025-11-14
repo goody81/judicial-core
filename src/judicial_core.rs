@@ -1,4 +1,4 @@
-use crate::laws::MasterPair;
+use crate::laws::master_pair::MasterPair;  // ← CORRECT
 use crate::verdicts::{Verdict, SystemAction};
 use crate::ledger::TamperProofLedger;
 use std::sync::RwLock;
